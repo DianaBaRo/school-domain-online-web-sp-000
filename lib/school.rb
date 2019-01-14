@@ -17,7 +17,7 @@ class School
 
   def grade(grade)
     if @roster[grade]
-    @roster[grade]
+      @roster[grade]
     end
   end
 
