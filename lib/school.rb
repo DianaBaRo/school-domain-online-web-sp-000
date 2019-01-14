@@ -26,9 +26,8 @@ class School
     result = {}
     @roster.each do | grade, students|
       sorted_students = students.sort
-      @roster[grade] = sorted_students
-      result << grade[]
+      result[grade] = sorted_students
     end
-    sorted_students
+    result
   end
 end
